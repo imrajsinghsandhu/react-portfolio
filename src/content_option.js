@@ -1,38 +1,39 @@
-const logotext = "JOHN";
+const logotext = "IMRAJ";
+
 const meta = {
-    title: "John Doe",
-    description: "I’m John Doe data scientist _ Full stack devloper,currently working in Berlin",
+    title: "Imraj Singh",
+    description: "I'm Imraj Singh, currently working as a Software Engineer, and freelancing website design & development services",
 };
 
 const introdata = {
-    title: "I’m John Doe",
+    title: "I’m Imraj Singh",
     animated: {
-        first: "I love coding",
+        first: "I love exploring",
         second: "I code cool websites",
-        third: "I develop mobile apps",
+        third: "I make things happen",
     },
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum",
+    description: "I'm currently working as a Software Engineer, and freelancing website design & development services",
     your_img_url: "https://images.unsplash.com/photo-1514790193030-c89d266d5a9d",
 };
 
 const dataabout = {
-    title: "abit about my self",
-    aboutme: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis dolor id ligula semper elementum feugiat pretium nulla. Nunc non commodo dolor. Nunc mollis dignissim facilisis. Morbi ut magna ultricies.",
+    title: "Abit about myself",
+    aboutme: "I completed my Bachelors in Computer Science at the National University of Singapore, and have since sought avenues to continuously explore, push my boundaries and learn. I like developing websites, and am committed to achieving total Customer Satisfaction.",
 };
 const worktimeline = [{
-        jobtitle: "Designer of week",
-        where: "YAdfi",
-        date: "2020",
+        jobtitle: "Software Engineer",
+        where: "UBS AG",
+        date: "2024",
     },
     {
-        jobtitle: "Designer of week",
-        where: "Jamalya",
-        date: "2019",
+        jobtitle: "Quantitative Trading Intern",
+        where: "Infinity Capital Management",
+        date: "2023",
     },
     {
-        jobtitle: "Designer of week",
-        where: "ALquds",
-        date: "2019",
+        jobtitle: "5G & IoT Software Engineer Intern",
+        where: "NCS Group",
+        date: "2022",
     },
 ];
 
@@ -41,7 +42,7 @@ const skills = [{
         value: 90,
     },
     {
-        name: "Djano",
+        name: "Django",
         value: 85,
     },
     {
@@ -105,11 +106,10 @@ const contactConfig = {
     YOUR_USER_ID: "user_id",
 };
 
-const socialprofils = {
-    github: "https://github.com",
-    facebook: "https://facebook.com",
-    linkedin: "https://linkedin.com",
-    twitter: "https://twitter.com",
+const socialprofiles = {
+    github: "https://github.com/imrajsinghsandhu",
+    instagram: "https://instagram.com/imrajsingh",
+    linkedin: "https://linkedin.com/in/imraj-singh",
 };
 export {
     meta,
@@ -120,6 +120,6 @@ export {
     services,
     introdata,
     contactConfig,
-    socialprofils,
+    socialprofiles,
     logotext,
 };
